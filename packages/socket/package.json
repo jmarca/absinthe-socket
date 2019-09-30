@@ -1,5 +1,5 @@
 {
-  "name": "@jmarca/socket",
+  "name": "@activimetrics/socket",
   "version": "0.2.3",
   "description": "Absinthe Socket",
   "module": "dist/index.js",
