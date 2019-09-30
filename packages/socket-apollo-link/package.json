@@ -1,6 +1,6 @@
 {
   "name": "@jmarca/socket-apollo-link",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Absinthe Socket Apollo Link",
   "module": "dist/index.js",
   "main": "compat/cjs/index.js",
@@ -32,8 +32,8 @@
     "utils"
   ],
   "dependencies": {
-    "@jmarca/socket": "^0.2.2",
     "@babel/runtime": "7.2.0",
+    "@jmarca/socket": "^0.2.3",
     "apollo-link": "1.2.5",
     "core-js": "^2",
     "flow-static-land": "0.2.8",

@@ -1,4 +1,4 @@
-# @absinthe/socket-graphiql
+# @jmarca/socket-graphiql
 
 > Socket GraphiQL Utilities
 
@@ -20,11 +20,11 @@
 
 ### Using [npm](https://docs.npmjs.com/cli/npm)
 
-    $ npm install --save phoenix @absinthe/socket-graphiql
+    $ npm install --save phoenix @jmarca/socket-graphiql
 
 ### Using [yarn](https://yarnpkg.com)
 
-    $ yarn add phoenix @absinthe/socket-graphiql
+    $ yarn add phoenix @jmarca/socket-graphiql
 
 ## API
 

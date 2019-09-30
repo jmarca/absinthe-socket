@@ -1,6 +1,6 @@
 {
   "name": "@jmarca/socket",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Absinthe Socket",
   "module": "dist/index.js",
   "main": "compat/cjs/index.js",

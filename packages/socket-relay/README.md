@@ -1,4 +1,4 @@
-# @absinthe/socket-relay
+# @jmarca/socket-relay
 
 > Absinthe Socket Relay
 
@@ -26,11 +26,11 @@
 
 ### Using [npm](https://docs.npmjs.com/cli/npm)
 
-    $ npm install --save @absinthe/socket-relay
+    $ npm install --save @jmarca/socket-relay
 
 ### Using [yarn](https://yarnpkg.com)
 
-    $ yarn add @absinthe/socket-relay
+    $ yarn add @jmarca/socket-relay
 
 ## Examples
 

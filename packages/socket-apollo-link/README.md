@@ -1,4 +1,4 @@
-# @absinthe/socket-apollo-link
+# @jmarca/socket-apollo-link
 
 > Absinthe Socket Apollo Link
 
@@ -22,11 +22,11 @@
 
 ### Using [npm](https://docs.npmjs.com/cli/npm)
 
-    $ npm install --save @absinthe/socket-apollo-link
+    $ npm install --save @jmarca/socket-apollo-link
 
 ### Using [yarn](https://yarnpkg.com)
 
-    $ yarn add @absinthe/socket-apollo-link
+    $ yarn add @jmarca/socket-apollo-link
 
 ## Examples
 

@@ -1,4 +1,4 @@
-# @absinthe/socket
+# @jmarca/socket
 
 > Absinthe Socket
 
@@ -73,11 +73,11 @@
 
 ### Using [npm](https://docs.npmjs.com/cli/npm)
 
-    $ npm install --save phoenix @absinthe/socket
+    $ npm install --save phoenix @jmarca/socket
 
 ### Using [yarn](https://yarnpkg.com)
 
-    $ yarn add phoenix @absinthe/socket
+    $ yarn add phoenix @jmarca/socket
 
 ## Types
 

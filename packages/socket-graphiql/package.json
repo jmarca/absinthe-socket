@@ -1,6 +1,6 @@
 {
   "name": "@jmarca/socket-graphiql",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Socket GraphiQL Utilities",
   "module": "dist/index.js",
   "main": "compat/cjs/index.js",
@@ -33,8 +33,8 @@
     "utils"
   ],
   "dependencies": {
-    "@jmarca/socket": "^0.2.2",
     "@babel/runtime": "7.2.0",
+    "@jmarca/socket": "^0.2.3",
     "@jumpn/utils-graphql": "0.6.0",
     "core-js": "^2"
   },
