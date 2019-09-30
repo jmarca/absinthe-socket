@@ -1,11 +1,11 @@
 // @flow
 
-import notifierFind from "@absinthe/socket/dist/notifier/find";
-import {observe, send, unobserveOrCancel} from "@absinthe/socket";
+import notifierFind from "@activimetrics/socket/dist/notifier/find";
+import {observe, send, unobserveOrCancel} from "@activimetrics/socket";
 import {createDeferred} from "@jumpn/utils-promise";
 import {getOperationType} from "@jumpn/utils-graphql";
 
-import type {AbsintheSocket} from "@absinthe/socket";
+import type {AbsintheSocket} from "@activimetrics/socket";
 import type {SubscribeFunction} from "react-relay";
 
 import subscriptions from "./subscriptions";
