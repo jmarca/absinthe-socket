@@ -1,12 +1,13 @@
 {
   "plugins": [
-    "@babel/plugin-transform-runtime",
-    "@babel/plugin-proposal-class-properties"
+      "@babel/plugin-transform-runtime",
+      "@babel/plugin-proposal-class-properties",
+      ["@babel/plugin-transform-arrow-functions", { "spec": false }]
   ],
   "presets": [
     [
       "@babel/preset-env",
-      {"modules": false, "spec": true, "useBuiltIns": "usage"}
+        {"targets": "> 0.25%, not dead, last 1 version"}
     ],
     "@babel/preset-flow",
   ]
