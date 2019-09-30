@@ -3,7 +3,9 @@
   "version": "0.2.3",
   "description": "Absinthe Socket Relay",
   "module": "dist/index.js",
-  "access":"public",
+    "publishConfig":{
+        "access": "public",
+    }
   "main": "src/index.js",
   "react-native": "src/index",
   "scripts": {
@@ -31,8 +33,8 @@
     "utils"
   ],
   "dependencies": {
-    "@babel/runtime": "7.2.0",
     "@activimetrics/socket": "^0.2.3",
+    "@babel/runtime": "7.2.0",
     "@jumpn/utils-graphql": "0.6.0",
     "@jumpn/utils-promise": "0.3.1",
     "core-js": "^2",
@@ -40,5 +42,6 @@
   },
   "devDependencies": {
     "nps": "5.9.3"
-  }
+  },
+  "gitHead": "e991bb81a33377129a839504a734ab1b948d73e5"
 }

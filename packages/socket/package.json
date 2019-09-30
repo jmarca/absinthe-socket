@@ -1,9 +1,11 @@
 {
   "name": "@activimetrics/socket",
   "version": "0.2.3",
-  "access":"public",
   "description": "Absinthe Socket",
   "module": "dist/index.js",
+    "publishConfig":{
+        "access": "public",
+    }
   "main": "compat/cjs/index.js",
   "react-native": "src/index",
   "scripts": {
@@ -42,5 +44,6 @@
   },
   "peerDependencies": {
     "phoenix": "^1.4"
-  }
+  },
+  "gitHead": "e991bb81a33377129a839504a734ab1b948d73e5"
 }

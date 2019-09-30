@@ -3,7 +3,9 @@
   "version": "0.2.3",
   "description": "Socket GraphiQL Utilities",
   "module": "dist/index.js",
-  "access":"public",
+    "publishConfig":{
+        "access": "public",
+    }
   "main": "compat/cjs/index.js",
   "react-native": "src/index",
   "scripts": {
@@ -34,8 +36,8 @@
     "utils"
   ],
   "dependencies": {
-    "@babel/runtime": "7.2.0",
     "@activimetrics/socket": "^0.2.3",
+    "@babel/runtime": "7.2.0",
     "@jumpn/utils-graphql": "0.6.0",
     "core-js": "^2"
   },
@@ -44,5 +46,6 @@
   },
   "peerDependencies": {
     "phoenix": "^1.4"
-  }
+  },
+  "gitHead": "e991bb81a33377129a839504a734ab1b948d73e5"
 }
