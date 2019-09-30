@@ -4,7 +4,7 @@
   "description": "Absinthe Socket Relay",
   "module": "dist/index.js",
     "publishConfig":{
-        "access": "public",
+        "access": "public"
     },
   "main": "src/index.js",
   "react-native": "src/index",
