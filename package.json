@@ -1,6 +1,8 @@
 {
   "name": "absinthe-socket",
-  "private": true,
+    "private": false,
+    "public": true,
+    "access": "public",
   "workspaces": [
     "packages/*"
   ],
