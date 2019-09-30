@@ -41,6 +41,7 @@
     "husky": "1.2.0",
     "lerna": "3.6.0",
     "lint-staged": "8.1.0",
+    "nps": "^5.9.8",
     "pascal-case": "2.0.1",
     "pkg-to-readme": "1.1.0",
     "prettier": "1.15.3",

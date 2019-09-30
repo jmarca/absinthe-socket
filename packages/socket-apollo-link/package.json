@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/absinthe-graphql/absinthe-socket.git"
+    "url": "git+https://github.com/jmarca/absinthe-socket.git"
   },
   "author": "Mauro Titimoli <mgtitimoli@gmail.com> (https://github.com/mgtitimoli)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/absinthe-graphql/absinthe-socket/issues"
+    "url": "https://github.com/jmarca/absinthe-socket/issues"
   },
-  "homepage": "https://github.com/absinthe-graphql/absinthe-socket/tree/master/packages/absinthe-phoenix-socket-apollo-link#readme",
+  "homepage": "https://github.com/jmarca/absinthe-socket/tree/master/packages/absinthe-phoenix-socket-apollo-link#readme",
   "keywords": [
     "absinthe",
     "phoenix",
