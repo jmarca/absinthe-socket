@@ -3,6 +3,7 @@
   "version": "0.2.3",
   "description": "Socket GraphiQL Utilities",
   "module": "dist/index.js",
+  "access":"public",
   "main": "compat/cjs/index.js",
   "react-native": "src/index",
   "scripts": {
