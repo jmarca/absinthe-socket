@@ -1,11 +1,11 @@
 {
   "name": "@activimetrics/socket-apollo-link",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Absinthe Socket Apollo Link",
   "module": "dist/index.js",
-    "publishConfig":{
-        "access": "public"
-    },
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "compat/cjs/index.js",
   "react-native": "src/index",
   "scripts": {
@@ -35,7 +35,7 @@
     "utils"
   ],
   "dependencies": {
-    "@activimetrics/socket": "^0.2.3",
+    "@activimetrics/socket": "^0.2.4",
     "@babel/runtime": "7.2.0",
     "apollo-link": "1.2.5",
     "core-js": "^2",

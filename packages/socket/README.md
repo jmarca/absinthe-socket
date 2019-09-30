@@ -1,4 +1,4 @@
-# @jmarca/socket
+# @activimetrics/socket
 
 > Absinthe Socket
 
@@ -73,11 +73,11 @@
 
 ### Using [npm](https://docs.npmjs.com/cli/npm)
 
-    $ npm install --save phoenix @jmarca/socket
+    $ npm install --save phoenix @activimetrics/socket
 
 ### Using [yarn](https://yarnpkg.com)
 
-    $ yarn add phoenix @jmarca/socket
+    $ yarn add phoenix @activimetrics/socket
 
 ## Types
 
