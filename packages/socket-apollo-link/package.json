@@ -1,8 +1,11 @@
 {
-  "name": "@absinthe/socket-apollo-link",
-  "version": "0.2.1",
+  "name": "@activimetrics/socket-apollo-link",
+  "version": "0.2.4",
   "description": "Absinthe Socket Apollo Link",
   "module": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "compat/cjs/index.js",
   "react-native": "src/index",
   "scripts": {
@@ -11,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/absinthe-graphql/absinthe-socket.git"
+    "url": "git+https://github.com/jmarca/absinthe-socket.git"
   },
   "author": "Mauro Titimoli <mgtitimoli@gmail.com> (https://github.com/mgtitimoli)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/absinthe-graphql/absinthe-socket/issues"
+    "url": "https://github.com/jmarca/absinthe-socket/issues"
   },
-  "homepage": "https://github.com/absinthe-graphql/absinthe-socket/tree/master/packages/absinthe-phoenix-socket-apollo-link#readme",
+  "homepage": "https://github.com/jmarca/absinthe-socket/tree/master/packages/absinthe-phoenix-socket-apollo-link#readme",
   "keywords": [
     "absinthe",
     "phoenix",
@@ -32,15 +35,16 @@
     "utils"
   ],
   "dependencies": {
-    "@absinthe/socket": "0.2.1",
+    "@activimetrics/socket": "^0.2.4",
     "@babel/runtime": "7.2.0",
     "apollo-link": "1.2.5",
-    "core-js": "2.6.0",
+    "core-js": "^2",
     "flow-static-land": "0.2.8",
     "graphql": "14.0.2",
     "zen-observable": "0.8.11"
   },
   "devDependencies": {
     "nps": "5.9.3"
-  }
+  },
+  "gitHead": "e991bb81a33377129a839504a734ab1b948d73e5"
 }

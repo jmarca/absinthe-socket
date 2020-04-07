@@ -1,8 +1,11 @@
 {
-  "name": "@absinthe/socket-graphiql",
-  "version": "0.2.1",
+  "name": "@activimetrics/socket-graphiql",
+  "version": "0.2.4",
   "description": "Socket GraphiQL Utilities",
   "module": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "compat/cjs/index.js",
   "react-native": "src/index",
   "scripts": {
@@ -11,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/absinthe-graphql/absinthe-socket.git"
+    "url": "git+https://github.com/jmarca/absinthe-socket.git"
   },
   "author": "Mauro Titimoli <mgtitimoli@gmail.com> (https://github.com/mgtitimoli)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/absinthe-graphql/absinthe-socket/issues"
+    "url": "https://github.com/jmarca/absinthe-socket/issues"
   },
-  "homepage": "https://github.com/absinthe-graphql/absinthe-socket/tree/master/packages/socket-graphiql#readme",
+  "homepage": "https://github.com/jmarca/absinthe-socket/tree/master/packages/socket-graphiql#readme",
   "keywords": [
     "absinthe",
     "phoenix",
@@ -33,15 +36,16 @@
     "utils"
   ],
   "dependencies": {
-    "@absinthe/socket": "0.2.1",
+    "@activimetrics/socket": "^0.2.4",
     "@babel/runtime": "7.2.0",
     "@jumpn/utils-graphql": "0.6.0",
-    "core-js": "2.6.0"
+    "core-js": "^2"
   },
   "devDependencies": {
     "nps": "5.9.3"
   },
   "peerDependencies": {
-    "phoenix": "^1.4.0"
-  }
+    "phoenix": "^1.4"
+  },
+  "gitHead": "e991bb81a33377129a839504a734ab1b948d73e5"
 }
